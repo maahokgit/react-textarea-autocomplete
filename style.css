@@ -49,9 +49,11 @@
   width: 100%;
   text-align: left;
   outline: none;
+  transition: background-color 0.15s ease-in-out;
 }
 .rta__entity:hover {
   cursor: pointer;
+  background-color: #f6f8fa;
 }
 .rta__item:not(:last-child) {
   border-bottom: 1px solid #dfe2e5;
@@ -63,5 +65,5 @@
 .rta__entity--selected {
   color: #fff;
   text-decoration: none;
-  background: #0366d6;
+  background: #0366d6 !important;
 }
